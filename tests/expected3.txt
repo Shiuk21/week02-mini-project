@@ -1,1 +1,1 @@
-Invalid input
+Enter a temperature: Enter 1 for Farenheit or 2 for Celsius: Invalid input
