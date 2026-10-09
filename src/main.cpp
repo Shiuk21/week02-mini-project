@@ -5,8 +5,6 @@ int main()
 {
     double newTemp;
     double temp;
-    double f;
-    double c;
     int input;
 
     cout << "Enter a temperature: ";
