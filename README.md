@@ -17,9 +17,9 @@ Test commands:
     Placeholder
 
 ## Example
-Enter a temperature: '32'\\
-Enter 1 for Fahrenheit or 2 for Celsius: '1'\\
-34 F converts to 0 C\\
+Enter a temperature: '32'  
+Enter 1 for Fahrenheit or 2 for Celsius: '1'  
+34 F converts to 0 C  
 
 ## Limitations
 Input won't accept any string input, only integers or doubles.
