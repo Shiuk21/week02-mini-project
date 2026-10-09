@@ -1,1 +1,1 @@
-Enter a temperature: Enter 1 for Farenheit or 2 for Celsius: 0 C converts to 33 F
+Enter a temperature: Enter 1 for Farenheit or 2 for Celsius: 0 C converts to 32 F
