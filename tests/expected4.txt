@@ -1,1 +1,1 @@
-Invalid input
+Enter a temperature: Invalid Input
