@@ -4,22 +4,35 @@
 The program reads in two values from the user: temperature and then input and checks if the input is valid. If it is, then it will read whether it should perform the Fahrenheit to Celsius calculation or the Celsius to Fahrenheit calculation. Then, depending on which one it chooses it will perform the calculation with the inputted temperature and print the conversion to the user. 
 
 ## Setup
-Placeholder
+git clone https://github.com/Shiuk21/week02-mini-project.git
+cd week02-mini-project
 
 ## Input Format
 Terminal asks user to input a temperature, then asks the user to input 1 or 2 for Fahrenheit or Celsius respectively. 
 
 ## Build and Testing
-    Placeholder
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app
+
+## Run the program:
+
+./build/app
 
 Test commands:
 
-    Placeholder
+bash test.sh
 
 ## Example
 Enter a temperature: '32'  
 Enter 1 for Fahrenheit or 2 for Celsius: '1'  
 32 F converts to 0 C  
+
+## Test Cases
+
+0 2: Converts 0 Celsius to 32 Fahrenheit.
+32 1: Converts 32 Fahrenheit to 0 Celsius.
+100 3: Tests an invalid conversion option.
+abc: Tests a nonnumeric input.
 
 ## Limitations
 Input won't accept any string input, only integers or doubles.
