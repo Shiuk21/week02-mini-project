@@ -15,7 +15,7 @@ int main()
     }
     else 
     {
-        cout << "Enter 1 for Farenheit or 2 for Celsius: ";
+        cout << "Enter 1 for Fahrenheit or 2 for Celsius: ";
         cin >> input;
 
         if (input != 1 && input != 2)
